@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário de Contato</title>
+        <meta charset="UTF-8">
+        <link rel="icon" type="icon" href="imgs/contato.png">
+        <link rel="stylesheet" type="text/css" href="CSS/animacao.css">
+    </head>
+    <style>
+        body{
+            background: #758173;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        h1.divt{
+            display: flex;
+            background-color: #4F544D;
+            border-radius: 30px;
+            width: 500px;
+            height: 42px;
+            color: white;
+            margin: auto;
+            justify-content: center;
+
+        }
+
+        h1.textt{
+            text-align: center;
+        }
+
+        form{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+            color: white;
+        }
+
+        form div{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        form input, form textarea {
+            padding: 20px;
+            width: 300px;
+            border: 1px solid white;
+            border-radius: 20px;
+        }
+
+        .corpo{
+            margin-top: 50px;
+        }
+        
+
+    </style>
+    <body>
+        <br>
+        <h1 class="divt">Formulário de Contato</h1>
+        <form>
+            <div class="corpo">
+            <label for="Nome">NOME: </label>
+            <input name="nome" placeholder="Digite seu nome"type="text" required>
+            <br><br>
+            <label for="email">E-MAIL:</label>
+            <input name="email" placeholder="Digite seu email" type="email" required>
+            <br><br>
+            <label for="assunto">ASSUNTO: </label>
+            <textarea name="mensagem"></textarea>
+            <br><br>
+            <label for="mensagem">MENSAGEM:</label>
+            <textarea name="mensagem"></textarea>
+            <br><br>
+            <div class="wrapper">
+            <a href="#"><span>Enviar</span></a>
+            </div>
+            </div>
+        </form>
+    </body>
+</html>

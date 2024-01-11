@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #016322;
+    color: #fff;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.user-info {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.user-info p {
+    margin: 0;
+    display: inline;
+    color: #fff;
+}
+
+.user-info a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+p {
+    line-height: 1.6;
+    text-align: left;
+}
+
+.logout-btn {
+    background-color:   #000000;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}

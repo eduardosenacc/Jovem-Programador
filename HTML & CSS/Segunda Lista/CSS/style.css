@@ -1,0 +1,35 @@
+body{
+    background: rgb(27, 22, 22);
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 140px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.corpo{
+    width: 960px;
+    margin: auto;
+}
+
+.conteudo{
+    display: table;
+    margin-left: 115px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -25px;
+}
+
+.imagem{
+    display: table-cell;
+    float: left;
+}
+
+.texto{
+    display: table-cell;
+    float: left;
+    width: 500px;
+}
